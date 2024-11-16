@@ -1,0 +1,104 @@
+:root {
+    min-width: 1150px;
+    --Color-white: white;
+    --Color-grey: #e3e3e3;
+    --Color-dark: #303132;
+    --backgroundcolor-darkgrey: #535151;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    color: var(--Color-grey);
+    outline: 0.9px solid tomato;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: var(--backgroundcolor-darkgrey);
+    box-shadow: inset 0 0 0.5px 0.5px var(--Color-dark);
+}
+
+.width-setting {
+    width: 1150px;
+}
+
+.header-inner {
+    margin: 0 auto;
+    font-size: 0;
+    text-align-last: justify;
+}
+
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    letter-spacing: 7px;
+}
+
+h1 a {
+    padding: 20px 0;
+    font-size: 25px;
+    transition: .2s ease-out;
+}
+
+h1 a:active {
+    color: var(--Color-dark);
+}
+
+
+
+nav {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+}
+
+nav ul {
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+
+li a {
+    padding: 20px 10px;
+    font-size: 17px;
+    transition: .2s ease-out;
+}
+
+li a:hover {
+    color: var(--Color-white);
+}
+
+li a:active {
+    color: var(--Color-dark);
+}
+
+
+.shopping-cart {
+    vertical-align: middle;
+}
+
+.shopping-cart img {
+    display: block;
+    width: 40px;
+    transition: .2s ease-out;
+}
+
+.shopping-cart img:active {
+    filter: opacity(0.7);
+}
